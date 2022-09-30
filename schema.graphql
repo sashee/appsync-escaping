@@ -1,0 +1,8 @@
+type Query {
+	unescaped(input: String): String
+	escaped(input: String): String
+}
+
+schema {
+	query: Query
+}
